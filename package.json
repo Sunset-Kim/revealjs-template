@@ -1,0 +1,24 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "rollup -c -w --environment BUILD:development"
+  },
+  "dependencies": {
+    "reveal.js": "^4.5.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@types/reveal.js": "^4.4.2",
+    "postcss": "^8.4.24",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
